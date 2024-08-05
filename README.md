@@ -30,7 +30,7 @@ Currently, this repository contains challenges in C. However, more languages wil
 
 ## Contribution
 
-The solutions provided in the `sol/` folders may not be the most optimal. If you have a better solution or would like to contribute, please feel free to reach out. Contributions are welcome and appreciated.
+The solutions provided in the `sol/` folders may not be the most optimal. If you have a better solution or would like to contribute, please feel free to reach out. Contributions are welcome and appreciated. Contributions can be made via pull request, and will be added if they pass review.
 
 ## Notes
 
@@ -64,29 +64,38 @@ The directory structure of the project is as follows:
 │ └── ...
 └── README.md
 </pre>
-
 ## Getting Started
 
 To get started with the challenges:
-
-1. Clone the repository:
-
-```sh {"id":"01J4GRS0HCCA2DZ6A5816X24XM"}
-git clone <repository-url>
-```
-
+### Option 1 (download the ZIP file):
+1. Download the repository as a ZIP file from GitHub and extract it.
 2. Navigate to the desired challenge folder:
-
-```sh {"id":"01J4GRS0HCCA2DZ6A584YJQF8Y"}
-cd Practice_C/ChallengeX
-```
+    ```sh
+    cd Practice_C/ChallengeX
+    ```
 
 3. Compile the source file (if necessary) and run the executable:
+    ```sh
+    gcc -o ChallengeX ChallengeX.c
+    ./ChallengeX
+    ```
+### Option 2 (Fork the repository):
+1. Fork the repository on GitHub by clicking the "Fork" button at the top-right of the repository page.
+2. Clone the forked repository to your local machine:
+    ```sh
+    git clone <your-forked-repository-url>
+    ```
 
-```sh {"id":"01J4GRS0HCCA2DZ6A5883TY1MZ"}
-gcc -o ChallengeX ChallengeX.c
-./ChallengeX
-```
+3. Navigate to the desired challenge folder:
+    ```sh
+    cd Practice_C/ChallengeX
+    ```
+
+4. Compile the source file (if necessary) and run the executable:
+    ```sh
+    gcc -o ChallengeX ChallengeX.c
+    ./ChallengeX
+    ```
 
 Happy coding!
 
