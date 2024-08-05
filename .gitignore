@@ -1,0 +1,25 @@
+# Ignore the .vscode folder in all subdirectories
+**/.vscode/
+
+# Ignore executables
+#**/*.exe
+#**/*.out
+#**/*.o
+
+# Ignore build directories
+**/build/
+**/dist/
+
+# Ignore compiled Python files
+**/*.pyc
+**/__pycache__/
+
+# Ignore node_modules folder if using Node.js
+**/node_modules/
+
+# Ignore log files
+**/*.log
+
+# Ignore OS-specific files
+**/.DS_Store
+**/Thumbs.db
