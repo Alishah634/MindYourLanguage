@@ -43,7 +43,7 @@ The solutions provided in the `sol/` folders may not be the most optimal. If you
 The directory structure of the project is as follows:
 
 <pre
->PracticeLanguages/
+>MindYourLanguage/
 │
 ├── Practice_C/
 │ ├── Challenge1/
