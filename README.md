@@ -7,6 +7,7 @@ Switching between programming languages can be challenging due to differences in
 ## Purpose
 
 The main goals of this repository are:
+
 - **Learning**: Reinforce your understanding of different programming languages.
 - **Problem-Solving Skills**: Improve your ability to solve algorithmic challenges.
 - **Skill Assessment**: Gauge your proficiency in different languages.
@@ -18,8 +19,8 @@ Each challenge is organized in its own folder named `ChallengeX`, where `X` is t
 
 - A source file containing the challenge code (e.g., `Challenge1.c`).
 - A `sol/` folder containing:
-  - A copy of the challenge source file.
-  - The compiled executable of the challenge (if it exists).
+   - A copy of the challenge source file.
+   - The compiled executable of the challenge (if it exists).
 
 Each folder `Practice_{LANGUAGE}` where `LANGUAGE` is the language being tested contains subfolders for each challenge. For example, `Practice_C` contains subfolders for challenges written in C.
 
@@ -41,7 +42,8 @@ The solutions provided in the `sol/` folders may not be the most optimal. If you
 
 The directory structure of the project is as follows:
 
-PracticeLanguages/
+<pre
+>PracticeLanguages/
 │
 ├── Practice_C/
 │ ├── Challenge1/
@@ -61,27 +63,30 @@ PracticeLanguages/
 │ │ └── Challenge3
 │ └── ...
 └── README.md
-
+</pre>
 
 ## Getting Started
 
 To get started with the challenges:
 
 1. Clone the repository:
-    ```sh
-    git clone <repository-url>
-    ```
+
+```sh {"id":"01J4GRS0HCCA2DZ6A5816X24XM"}
+git clone <repository-url>
+```
 
 2. Navigate to the desired challenge folder:
-    ```sh
-    cd Practice_C/ChallengeX
-    ```
+
+```sh {"id":"01J4GRS0HCCA2DZ6A584YJQF8Y"}
+cd Practice_C/ChallengeX
+```
 
 3. Compile the source file (if necessary) and run the executable:
-    ```sh
-    gcc -o ChallengeX ChallengeX.c
-    ./ChallengeX
-    ```
+
+```sh {"id":"01J4GRS0HCCA2DZ6A5883TY1MZ"}
+gcc -o ChallengeX ChallengeX.c
+./ChallengeX
+```
 
 Happy coding!
 
