@@ -2,7 +2,7 @@
 
 ## Overview
 
-Switching between programming languages can be challenging due to differences in syntax and approaches to algorithms. Often, you may need a refresher to get back up to speed. Instead of spending hours googling, why not solve a few problems in the language you're learning? This repository contains practice challenges for various languages to help you remember and refresh concepts and syntax you haven't used in a while.
+Switching between programming languages can be challenging due to differences in syntax and approaches to algorithms. Often, you may need a refresher to get back up to speed. Instead of spending hours googling, why not dive right in and solve a few problems in the language you're learning? This repository contains practice challenges for various languages to help you remember and refresh concepts and syntax you haven't used in a while.
 
 ## Purpose
 
